@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodCircles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"><!--This is for using different fonts-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive-style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navigation-wrap">
+            <div class="container">
+                <div class="circle"></div>
+                <a href="#"class="navbar-brand"><img src="Restaurant-Logo.png"height="100px"width="100px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarText"aria-controls="navbarText"aria-expanded="false"aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse"id="navbarText">
+                    <ul class="navbar-nav nav-pills ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a href="#home"class="nav-link"aria-current="page">Home</a></li>
+                        <li class="nav-item"><a href="#about"class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#explore-food"class="nav-link">Explore food</a></li>
+                        <li class="nav-item"><a href="#testimonial"class="nav-link">Testimonials</a></li>
+                        <li class="nav-item"><a href="#faq"class="nav-link">FAQ's</a></li>
+                        <li class="nav-item"><a href="#help"class="nav-link">Help</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="container-fluid px-0 top-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6">
+                        <h1>Good food choices are good investments.</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas blanditiis corrupti exercitationem quidem ab hic, quisquam numquam harum odio laudantium ut quod quia autem doloremque voluptatem earum, esse incidunt architecto nisi mollitia quos consequatur molestiae sapiente commodi. Eos, explicabo error!</p>
+                        <div class="mt-4">
+                            <button class="main-btn">Add to cart<i class="fas fa-shopping-cart ps-3"></i></button>
+                            <button class="white-btn ms-lg-4 mt-lg-0 mt-4">Order now <i class="fas fa-angle-right ps-3"></i> </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="counter">
+        <section class="counter-section">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-3 mb-lg-9 mg-5">
+                        <h2><span id="count1"></span>+</h2>
+                        <p>SAVINGS</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-9 mg-5">
+                        <h2><span id="count2"></span>+</h2>
+                        <p>PHOTOS</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-9 mg-5">
+                        <h2><span id="count3"></span>+</h2>
+                        <p>FOODS</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-9 mg-5">
+                        <h2><span id="count4"></span>+</h2>
+                        <p>GLOBAL ATTENDIE</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section id="about">
+        <div class="about-section wrapper">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
+                        <div class="card border-0">
+                            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                  </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="img1.jpg"class="img-fluid">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="img2.avif"class="img-fluid">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="img3.jpg"class="img-fluid">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="img4.jpg"class="img-fluid">
+                                  </div>
+                                </div>
+                              </div> 
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 text-sec">
+                        <h2>We pride on ourselves for making real food from the best ingredients.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ab aliquam nobis ullam culpa! Pariatur explicabo voluptate velit nihil nam provident omnis, maxime quod debitis culpa eius dolor officiis voluptas commodi recusandae corrupti earum qui magni neque a at nesciunt!</p>
+                        <button class="main-btn mt-4"><a href="https://education.nationalgeographic.org/resource/food/"style="text-decoration:none;color:black;">More info</a><i class="fas fa-angle-right ps-3"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="container food-type">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5">
+                        <h2>We make everything by hand with the best possible ingredients.</h2>
+                       <p>Incorporating green vegetables into your diet is essential for promoting overall health and well-being. Packed with vitamins, minerals, and antioxidants, these nutrient-rich powerhouses offer a myriad of benefits. From supporting digestion and boosting immunity to providing essential nutrients for optimal bodily functions, green vegetables play a crucial role in maintaining a balanced and nutritious diet.</p>
+                        <ul class="list-unstyled py-3">
+                            <li>Food is one of the basic necessites of life</li>
+                            <li>Food contains the essential nutrients that is required for the growth for the body.</li>
+                            <li>Among foods the green vegetables are more healthier than others.</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-7 col-md-12">
+                        <div class="card border-0">
+                            <img src="img5.png"class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="story">
+        <div class="story-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-content">
+                            <h2>When we are hungry or when our stomach is empty it makes no difference whether he is rich or poor.</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quae sunt, hic ducimus repudiandae dolorum maiores sapiente officia similique! Praesentium saepe accusamus minima nulla voluptate temporibus, culpa amet quo nesciunt? Nostrum reprehenderit fugiat sit, enim corporis quis ut, consequuntur aut nulla quod, cum assumenda nemo aspernatur adipisci. Quod, repudiandae aspernatur!</p>
+                            <button class="main-btn">Read more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="explore-food">
+        <div class="explore-food wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-content text-center">
+                            <h2>Explore foods</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto perferendis tempora blanditiis vitae magni aperiam dolorem, tenetur rerum eligendi provident repudiandae quod vel! Reiciendis ipsam dicta id aliquam labore exercitationem ex animi soluta commodi tenetur distinctio atque modi blanditiis, quos fugit sint mollitia, reprehenderit officia velit? Ratione est molestiae modi.</p>                   
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+                        <div class="card">
+                            <img src="img6.jpg" class="img-fluid">
+                            <div class="pt-3">
+                                <h4>Chicken burger</h4>
+                                <p>Time:15-20min | Serves-1</p>
+                                <span>Price:$10</span>
+                                <button class="main-btn">Order now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+                        <div class="card">
+                            <img src="img7.jpg" class="img-fluid">
+                            <div class="pt-3">
+                                <h4>Chicken pizza</h4>
+                                <p>Time:15-20min | Serves-4</p>
+                                <span>Price:$20</span>
+                                <button class=" main-btn">Order now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+                        <div class="card">
+                            <img src="img8.jpg" class="img-fluid">
+                            <div class="pt-3">
+                                <h4>Veg biryani</h4>
+                                <p>Time:15-20min | Serves-2</p>
+                                <span>Price:$12</span>
+                                <button class="main-btn">Order now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+                        <div class="card">
+                            <img src="img9.jpg" class="img-fluid">
+                            <div class="pt-3">
+                                <h4>Chicken nuggets</h4>
+                                <p>Time:10-15min | Serves-2</p>
+                                <span>Price:$8</span>
+                                <button class="main-btn">Order now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial">
+        <div class="wrapper testimonial-section">
+            <div class="container text-center">
+                <div class="text-center pb-4">
+                    <h2>Testimonials</h2>
+                  <div class="row">
+                    <div class="col-sm-12 col-lg-10 offset-lg-1">
+                        <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="carousel-caption">
+                                      <img src="review-1.jpg"class="img-fluid">
+                                        <p>"Far far away,behind the word mountains,far from the countries Vokalia and Consonantia,there live the blind texts</p>
+                                        <p><b>Jonathan Doe -UX Designer</b></p>
+                                    </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <div class="carousel-caption">
+                                        <img src="review-2.jpg"class="img-fluid">
+                                          <p>"Far far away,behind the word mountains,far from the countries Vokalia and Consonantia,there live the blind texts</p>
+                                          <p><b>Maccy Doe -Frontend enginner</b></p>
+                                      </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <div class="carousel-caption">
+                                        <img src="review3.jpeg"class="img-fluid">
+                                          <p>"Far far away,behind the word mountains,far from the countries Vokalia and Consonantia,there live the blind texts</p>
+                                          <p><b>Marry Clark -UX Designer</b></p>
+                                      </div>
+                                  </div>       
+                            </div>
+                          </div> 
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq">
+        <div class="faq wrapper">
+          <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="text-center">
+                        <h2>Frequently asked Questions....</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-2">
+                <div class="col-sm-6 mb-4">
+                    <h4><b>Q:</b>Is Foodies Bread really baked fresh each day? </h4>
+                    <p> The delightful aroma of freshly baked bread wafts through the bakery, enticing customers with its warmth and goodness. Whether it’s a crusty baguette, a soft naan, or a fluffy croissant, the bakers at Foodies take pride in crafting these delectable treats daily.</p>           
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <h4><b>Q:</b>Can I make order foods online?</h4>
+                    <p>Yes, in online also the food are also of the same type.</p>           
+                </div>
+            </div>
+            <div class="row pt-2">
+                <div class="col-sm-6 mb-4">
+                    <h4><b>Q:</b>Are foods properly hygenic?</h4>
+                    <p>Yes,they are made in a good way so that it can be more healthier to eat and taste is also far better.</p>           
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <h4><b>Q:</b>Are the food prices affordable?</h4>
+                    <p>The food prices are much better than other and price range of different food items is good and affordable to buy.</p>           
+                </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="book-food">
+        <div class="book-food">
+            <div class="container book-food-text">
+                <div class="row text-center pt-5">
+                    <div class="col-lg-9 col-md-12">
+                        <h2>Baked fresh daily by the bakers so that it will be properly hygenic.</h2>
+                    </div>
+                    <div class="col-lg-3 col-md-12 mt-lg-0 mt-4">
+                        <button class="main-btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="help">
+        <div class="footer mt-5 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <a href="#"class="footer-link">Register</a>
+                        <a href="#"class="footer-link">Forum</a>
+                        <a href="#"class="footer-link">Affiliate</a>
+                        <a href="#"class="footer-link">FAQ</a>
+                        <div class="footer-social pt-4 text-center">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">       
+                        <div class="form-group text-center">
+                            <p class="text-light">For any queries you can contact us at foodcircle@gmail.com</p>
+                            <p class="Write your review:"></p>
+                            <label for="texttype"class="form-label"style="color:white;">Review:</label>
+                            <input type="text" placeholder="Write your review"id="texttype"style="background-color:wheat;"><br>
+                            <button class="button"type="Submit" style="border-radius: 20px;width: 80px;background-color: wheat;">Submit</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="footer-copy">
+                            <div class="copy-right text-center pt-5">
+                                <p class="text-light">© 2024, FOODCIRCLES.com, Inc. or its affiliate. All rights reserved</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
