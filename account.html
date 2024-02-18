@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account page</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"><!--This is for using different fonts-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="signin-signup">
+            <form class="sign-in-form">
+                <h2 class="title">Sign in</h2>
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text"placeholder="Username">
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password"placeholder="Password">
+                </div>
+                <input type="submit"value="LOGIN"class="btn">
+
+                <p class="social-text">Or Sign in with accounts</p>
+                <div class="social-media">
+                    <a href="#gmail" class="social-icon"><i class="fab fa-google"></i></a>
+                    <a href="#gmail" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#gmail" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <p>Dont want to sign: <a href="index.html" style="color:black;"class="btn pt-2">SKIP</a></p>
+                <p class="account-text">Don't have an account?<a href="#"id="sign-up-btn2">Sign-up</a></p>
+            </form>
+
+            <form class="sign-up-form">
+                <h2 class="title">Sign up</h2>
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text"placeholder="Username">
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-envelope"></i>
+                    <input type="text"placeholder="Email">
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password"placeholder="Password">
+                </div>
+                <input type="submit"value="SIGN UP"class="btn">
+                <p class="social-text">Or sign in with email</p>
+                <div class="social-media">
+                    <a href="#gmail" class="social-icon"><i class="fab fa-google"></i></a>
+                    <a href="#gmail" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#gmail" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <p class="account-text">Already have an account?<a href="#"id="sign-in-btn2">Sign-in</a></p>
+            </form>
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>Member of FoodCircles?</h3>
+                    <p>If you are already the member of food-circle then just Sign-in</p>
+                    <button class="btn" id="sign-in-btn">Sign in</button>
+                  
+                </div>
+                <img src="signin.svg"class="image">
+            </div>
+
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>New to FoodCircles?</h3>
+                    <p>If you want to be a member of this platform then please SIGN-UP:-</p>
+                    <button class="btn" id="sign-up-btn">Sign up</button>
+                </div>
+                <img src="signup.svg"class="image">
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
